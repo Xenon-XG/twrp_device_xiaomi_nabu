@@ -1,8 +1,9 @@
 name: V4-MODDED TWRP BUILD
 
 on:
-  # push:
-  #   branches: [ "mod-windows" ]
+  push:
+    tags:
+      - 'build-*'
 
   workflow_dispatch:
   
